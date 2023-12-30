@@ -4,7 +4,7 @@ win.CESIUM_BASE_URL= "/public/Cesium";
 import { Cartesian3, Ion, Terrain, Viewer, createOsmBuildingsAsync, Math as CesiumMath, Color, PerspectiveFrustum } from "cesium";
 import * as THREE from "three";
 import * as OBC from "openbim-components";
-import { CesiumCamera } from "./cesium-camera";
+import { CesiumCamera } from "../../cesium-camera";
 
 
 // Init CESIUM
