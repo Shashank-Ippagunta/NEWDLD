@@ -1,6 +1,6 @@
 // The URL on your server where CesiumJS's static files are hosted.
 const win = window as any;
-win.CESIUM_BASE_URL= "./public/Cesium";
+win.CESIUM_BASE_URL= "/public/Cesium";
 import { Cartesian3, Ion, Terrain, Viewer, createOsmBuildingsAsync, Math as CesiumMath, Color, PerspectiveFrustum } from "cesium";
 import * as THREE from "three";
 import * as OBC from "openbim-components";
